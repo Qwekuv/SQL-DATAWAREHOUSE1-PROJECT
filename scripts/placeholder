@@ -1,1 +1,14 @@
+--This script creates a new datawarehouse and schemas(bronze1,silver1 and gold) for the Datawarehouse1 project
 
+--Use master;
+
+CREATE DATABASE DataWarehouse1;
+
+USE Datawarehouse1;
+
+CREATE SCHEMA bronze1;
+GO
+CREATE SCHEMA silver1;
+GO
+CREATE SCHEMA gold;
+GO
